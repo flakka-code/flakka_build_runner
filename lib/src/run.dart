@@ -19,20 +19,21 @@ Future<int> run(List<String> args) async {
   final ex = {
     'proto/{{module}}.proto': ['lib/src/proto/{{}}.dart']
   };
-  return build_runner.run(
-    args,
-    [
-      BuilderApplication.forBuilder(
-        'builderKey',
-        [SeedBuilder.new],
-        (node) => node.isRoot,
-        defaultOptions: const BuilderOptions({
-          'files': [
-            'a.proto',
-            'b.proto',
-          ],
-        }),
-      ),
-    ],
-  );
+  return 1;
+  // return build_runner.run(
+  //   args,
+  //   [
+  //     BuilderApplication.forBuilder(
+  //       'builderKey',
+  //       [(options)=>SeedBuilder(options)],
+  //       (node) => node.isRoot,
+  //       defaultOptions: const BuilderOptions({
+  //         'files': [
+  //           'a.proto',
+  //           'b.proto',
+  //         ],
+  //       }),
+  //     ),
+  //   ],
+  // );
 }
