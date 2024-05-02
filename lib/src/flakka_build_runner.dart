@@ -1,4 +1,3 @@
-
 /// {@template flakka_build_runner}
 /// A build runner for flakka protobuf
 /// {@endtemplate}
