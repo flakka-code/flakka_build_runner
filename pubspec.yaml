@@ -1,0 +1,32 @@
+name: flakka_build_runner
+description: A build runner for flakka protobuf
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: "^3.3.0"
+
+dependencies:
+  args: ^2.4.2
+  build: any
+  build_runner: any
+  build_runner_core: any
+  cli_completion: ^0.5.0
+  flakka_build:
+    git: https://github.com/flakka-code/flakka_build
+  mason_logger: ^0.2.12
+  pub_updater: ^0.4.0
+
+dev_dependencies:
+  build_verify: ^3.1.0
+  build_version: ^2.1.1
+  mocktail: ^1.0.3
+  test: ^1.25.2
+  very_good_analysis: ^5.1.0
+
+executables:
+  flakka_build_runner:
+
+dependency_overrides:
+  flakka_build:
+    path: ../flakka_build
