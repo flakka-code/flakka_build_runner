@@ -1,3 +1,6 @@
+# 0.1.2-alpha.3
+Test automated publish 3
+
 # 0.1.2-alpha.2
 Test automated publish 2
 
