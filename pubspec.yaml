@@ -27,6 +27,6 @@ dev_dependencies:
 executables:
   flakka_build_runner:
 
-dependency_overrides:
-  flakka_build:
-    path: ../flakka_build
+#dependency_overrides:
+#  flakka_build:
+#    path: ../flakka_build
