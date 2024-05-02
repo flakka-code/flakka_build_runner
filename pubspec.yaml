@@ -1,6 +1,6 @@
 name: flakka_build_runner
 description: A build runner for flakka protobuf
-version: 0.0.1
+version: 0.1.0
 publish_to: none
 
 environment:
