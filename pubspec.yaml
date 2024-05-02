@@ -1,7 +1,7 @@
 name: flakka_build_runner
 description: A build runner for flakka protobuf
 repository: https://github.com/flakka-code/flakka_build_runner
-version: 0.1.2-alpha.4
+version: 0.1.2-alpha.5
 
 environment:
   sdk: "^3.3.0"
